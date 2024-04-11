@@ -1,0 +1,42 @@
+.reviewlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  justify-content: center;
+}
+
+.reviewitem {
+  width: 300px;
+  padding: 10px;
+  max-height: 500px;
+  overflow-y: auto;
+  border: solid 1px #0c0b0b;
+  border-radius: 10px;
+  background-color: rgba(211, 211, 211, 0.5);
+}
+
+.reviewitem::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.reviewitem::-webkit-scrollbar-thumb {
+  background-color: rgba(224, 222, 222, 0.733);
+}
+
+.reviewitem::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.reviewavailable {
+  display: flex;
+  font-size: 18px;
+  background-color: #fff;
+  width: 280px;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}

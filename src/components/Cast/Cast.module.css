@@ -1,0 +1,31 @@
+.imgthumb {
+  width: 200px;
+  border: solid 1px #fff;
+  border-radius: 5px;
+}
+
+.castcard {
+  text-align: center;
+}
+
+.castList {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.castna {
+  display: flex;
+  font-size: 18px;
+  background-color: #fff;
+  width: 280px;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
