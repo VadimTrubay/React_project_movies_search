@@ -1,0 +1,12 @@
+.image_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.image_container {
+  display: inline-block;
+  margin: 5px;
+}

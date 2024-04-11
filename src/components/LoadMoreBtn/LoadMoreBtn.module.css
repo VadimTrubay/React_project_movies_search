@@ -1,0 +1,16 @@
+.load_photo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.load_photo button {
+  width: 100px;
+  height: 35px;
+  background-color: #0f0c7e;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
