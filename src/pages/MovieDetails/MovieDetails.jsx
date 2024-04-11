@@ -8,7 +8,8 @@ import {
   useNavigate,
   useParams,
 } from 'react-router-dom';
-import css from './MuvieDetails.module.css'
+import css from './MovieDetails.module.css'
+import img from '../../img/img.png';
 
 const movieAPI = new MovieAPI();
 
@@ -43,7 +44,7 @@ export default function MovieDetails() {
       {movie && (
         <>
           <div className={css.imgcontainer}>
-            <img src={BASE_URL + poster_path} alt='poster'/>
+            <img src={poster_path ? BASE_URL + poster_path : img} alt='poster'/>
             <div className={css.overcard}>
               <h1>{title}({release_date.slice(0, 4)})</h1>
               <p>User score: {(vote_average * 10).toFixed()}%</p>
