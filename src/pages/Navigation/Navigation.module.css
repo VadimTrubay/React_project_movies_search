@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  margin: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.link {
+  margin: 5px;
+  text-decoration: none;
+}
+
+.active {
+  color: #f10005;
+}

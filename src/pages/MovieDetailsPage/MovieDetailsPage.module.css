@@ -1,0 +1,33 @@
+.go_to_back {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-weight: 800;
+  margin: 10px;
+  padding: 5px;
+  background-color: #a96200;
+  color: white;
+  text-decoration: none;
+}
+
+.detail {
+  margin: 10px;
+}
+
+.additional {
+  margin: 20px;
+}
+
+.additional a {
+  text-decoration: none;
+  color: #4959ff;
+  font-weight: bold;
+}
+
+.list {
+  margin: 10px;
+}
+
+.additional a:hover {
+  color: #ff0000;
+  font-size: 1.2em;
+}

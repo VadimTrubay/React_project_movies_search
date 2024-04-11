@@ -1,0 +1,32 @@
+.movie_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  justify-content: center;
+  list-style: none;
+}
+
+.movie_list_item {
+  display: flex;
+  flex: 0 0 calc(18% - 10px);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #000000;
+  border-radius: 7px;
+  margin: 10px;
+}
+
+.movie_list_item a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.movie_list_title,
+.movie_list_release {
+  font-size: 15px;
+}
+
+h1 {
+  text-align: center;
+}
