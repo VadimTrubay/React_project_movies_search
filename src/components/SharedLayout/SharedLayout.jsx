@@ -11,9 +11,15 @@ export function SharedLayout() {
       <div className={css.flexmenu}>
         <NavLink className={css.linkmenu} to={'/'}>
           <AiFillHome/>
+          <p>
+            Home
+          </p>
         </NavLink>
         <NavLink className={css.linkmenu} to={'movies'}>
           <AiOutlineSearch/>
+          <p>
+            Search
+          </p>
         </NavLink>
       </div>
       <main>
