@@ -51,7 +51,13 @@ export default function MovieDetails() {
               <h2>Overview</h2>
               <p>{overview ? overview : 'N/A'}</p>
               <h2>Genres</h2>
-              <p>{genres.length > 0 ? genres.map(i => i.name + ', ') : 'N/A'}</p>
+              <p>
+                {genres.length > 0
+                  ? genres.map((genre, index) =>
+                    index !== genres.length - 1 ? genre.name + ', ' : genre.name
+                  )
+                  : 'N/A'}
+              </p>
             </div>
           </div>
           <div className={css.infotitle}>

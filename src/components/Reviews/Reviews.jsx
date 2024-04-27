@@ -15,7 +15,6 @@ export default function Reviews() {
       try {
         const resp = await movieAPI.getMovieReviews(movieId);
         setData(resp.results);
-        console.log('resp:', resp);
       } catch (error) {
         setErr(error);
       }
@@ -30,7 +29,7 @@ export default function Reviews() {
         <ul className={css.reviewlist}>
           {data.map(({id, author, content}) => (
             <li className={css.reviewitem} key={id}>
-              <h4>{author}</h4>
+              <h4 className={css.author}>{author}</h4>
               <p>{content}</p>
             </li>
           ))}

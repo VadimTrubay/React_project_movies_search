@@ -1,13 +1,14 @@
 .poster_title {
-  color: black;
-  font-size: 20px;
+  color: #ffffff;
+  font-size: 22px;
   text-align: center;
 }
 
 .poster_card {
   display: flex;
   width: 300px;
-  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  background-color: rgba(61, 61, 61, 0.5);
   border: solid 1px;
   border-radius: 10px;
   margin: 5px;
@@ -26,7 +27,7 @@
 }
 
 .poster_date {
-  color: black;
+  color: #ffffff;
   font-size: 16px;
   text-align: center;
 }
