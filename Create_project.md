@@ -19,7 +19,7 @@ npm run dev - Запустіть проект командою
 
 "react/prop-types": 0 - змінити ним вміст файлу .eslintrc.cjs в rules
 
-Відкрий файл vite.config.js та заміни його вміст на наступний код.
+Відкрий файл vite.config.ts та заміни його вміст на наступний код.
 
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
